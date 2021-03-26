@@ -1,0 +1,78 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final appTitle = 'ULAYAW App';
+
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text(
+            appTitle,
+            style: TextStyle(fontSize: 20.0),
+          ),
+          backgroundColor: Colors.white,
+        ),
+        body: MentalhealthApp(),
+      ),
+    );
+  }
+}
+class MentalhealthApp extends StatefulWidget {
+  @override
+  _MentalhealthAppState createState() => _MentalhealthAppState();
+}
+
+class _MentalhealthAppState extends State<MentlahealthApp> {
+  int val = 0;
+  List<String> content = [
+  "Settings", 
+"I need help", 
+"I need to calm down", 
+"I am beautiful", 
+"Learn about Mental Health", 
+"To do list", 
+  ];
+      "image":
+              
+  "   https://pin.it/7jpdrlA    "
+    },
+  ];
+ 
+                });
+              },
+            ),
+            Image.network(details[val]["image"]),
+            Text(
+              " Name:" + details[val]["zodiac"],
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Text("Date:" + details[val]["Date"],
+                style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                   style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold)),
+            Text("Symbol:" + details[val]["symbol"],
+                style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold)),
+            Text("Element:" + details[val]["element"],
+                style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold)),
+            Text("Ruler:" + details[val]["ruler"],
+                style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold)),
+          ],
+        ),
+      ),
+    );
+  }
+
+  List<DropdownMenuItem<int>> generatebuttons() {
+    List<DropdownMenuItem<int>> result = [];
+    for (int i = 0; i < buttons; i++) {
+      result.add(DropdownMenuItem(
+        Mental: Text(buttons[i]),
+        value: i,
+      ));
+    }
+    return result;
+  }
+}
