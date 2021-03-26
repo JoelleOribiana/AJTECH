@@ -13,6 +13,6 @@ When each function is opened, different screens open up. For instance when you o
 
 The Google Technology used was Flutter. Flutter is an open-source, cross-platform toolkit used for building apps for mobile OS, web, and desktop with the same code base. It will be used to create the frontend of the app so that it will be easier to implement the code in different platforms. This was used to make the actual app to encode the necessary codes for the application.
 
-  The application was built in a simple and accessible way. The app was developed in Flutter since they make it easy to develop because of the customizable packages to make different widgets. The developers needed two software to complete the process, the Flutter SDK and Android Studio for the editor. This should run with the codes included. The execution of the project is simple and understandable.
+  The application was built in a simple and accessible way. The app was developed in Flutter since they make it easy to develop because of the customizable packages to make different widgets. The developers needed two software to complete the process, the Flutter SDK and Android Studio for the editor. This should run in Android Studio with an Android emulator, physical device or browser attached.
   
   The Ulayaw app will be downloaded free on App Store and Google Play Store.
